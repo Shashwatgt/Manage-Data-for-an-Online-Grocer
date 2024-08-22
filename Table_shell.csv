@@ -1,0 +1,41 @@
+Inventory Table:,,,,,
+,,,,,
+item_number,description,quantity_on_hand,item_types,location,unit
+1000,Bennet Farm free-range eggs,21,Dairy,D12,dozen
+1100,Freshness White beans,41,Canned,a2,12 ounce can
+1222,Freshness Green beans,47,Canned,a3,12 ounce can
+1223,Freshness Green beans,17,Canned,a7,36 oz can
+1224,Freshness Wax beans,23,Canned,a3,12 ounce can
+2000,Ruby's Kale,26,Produce,p12,bunch
+2001,Ruby's Organic Kale,7,Produce,po2,bunch
+,,,,,
+,,,,,
+Purchase Table:,,,,,
+,,,,,
+Transaction_ID,item_number,quantity,cost,purchase_date,vendor
+1,1000,25,2.35,02-01-2022,Bennet Farms
+2,1100,40,0.69,02-02-2022,"Freshness, Inc."
+3,1222,40,0.59,02-10-2022,"Freshness, Inc."
+4,1223,10,1.75,02-10-2022,"Freshness, Inc."
+5,1224,30,0.65,02-10-2022,"Freshness, Inc."
+6,1223,10,1.8,02-15-2022,"Freshness, Inc."
+7,2000,25,1.29,02-12-2022,Ruby Redd Produce
+8,2001,20,2.19,02-12-2022,Ruby Redd Produce
+,,,,,
+,,,,,
+Sales Table:,,,,,
+,,,,,
+Transaction_ID,item_number,Price,quantity,date_sold,customer_id
+101,1000,5.59,2,02-02-2022,198765
+102,2000,3.99,2,02-02-2022,NULL
+103,1100,1.49,2,02-02-2022,202900
+104,1000,5.99,2,02-04-2022,196777
+105,1100,1.49,8,02-07-2022,198765
+106,1000,5.49,4,02-11-2022,277177
+107,1100,1.49,4,02-11-2022,NULL
+108,1222,1.29,12,02-12-2022,111000
+109,1224,1.55,8,02-12-2022,NULL
+110,1223,3.49,5,02-13-2022,198765
+111,2001,6.99,1,02-13-2022,100988
+112,2001,6.99,12,02-14-2022,202900
+113,2000,3.99,2,02-15-2022,111000
